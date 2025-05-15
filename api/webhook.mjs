@@ -4,7 +4,7 @@ export async function GET(request) {
   const token = searchParams.get("hub.verify_token");
   const challenge = searchParams.get("hub.challenge");
 
-  const VERIFY_TOKEN = "token-teste";
+  const VERIFY_TOKEN = "sellbieToken2025";
 
   if (mode && token === VERIFY_TOKEN) {
     console.log("Webhook verificado com sucesso");

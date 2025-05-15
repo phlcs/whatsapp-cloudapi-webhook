@@ -4,7 +4,7 @@ export default async function handler(req, res) {
 
     // Validação do token (GET)
     if (req.method === "GET") {
-      const VERIFY_TOKEN = "token-teste"; // mesmo usado no setup da Meta
+      const VERIFY_TOKEN = "sellbietoken2025"; // mesmo usado no setup da Meta
       const mode = req.query["hub.mode"];
       const token = req.query["hub.verify_token"];
       const challenge = req.query["hub.challenge"];
